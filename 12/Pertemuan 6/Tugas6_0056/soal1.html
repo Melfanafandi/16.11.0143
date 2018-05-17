@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	.container{
+		height: 650px;
+		background-color: lightgreen;
+		display: flex;
+		flex-direction: row;
+	}
+	.containerkanan{
+		display: flex;
+		flex-direction: column;
+		margin: 10px;
+	}
+	.containerkiri{
+		height: 650px;
+		width: 200px;
+		background-color: pink;
+		display: flex;
+		flex-direction: column;
+	}
+	.containerbawah{
+		height: 200px;
+		width: 800px;
+		display: flex;
+		flex-direction: row;
+	}
+	.logo{
+		background-color: black;
+		height: 150px;
+		width: 150px;
+		border-radius: 150px;
+		color: white;
+		display: flex;
+		align-items: center;
+	}
+	.boxmenu{
+		width: 150px;
+		height: 50px;
+		margin: 10px;
+		background-color: blue;
+		justify-content: center;
+		color: white;
+		padding: 5px;
+	}
+	.border{
+		padding: 5px;
+		height: 50px;
+		width: 500px;
+		background-color: purple;
+		margin: 10px;
+		color: white;
+	}
+	.main{
+		padding: 5px;
+		height: 350px;
+		width: 800px;
+		background-color: orange;
+		margin: 5px;
+	}
+	.info{
+		padding: 5px;
+		width: 300px;
+		height: 150px;
+		margin: 10px;
+		background-color: lightblue;
+	}
+	.footer{
+		height: 30px;
+		width: 800px;
+		background-color: grey;
+		padding: 5px;
+	}
+	</style>
+</head>
+<body>
+		<div class="container">
+			<div class="containerkiri">
+				<div class="logo">LOGO</div>
+				<div class="boxmenu">Menu 1</div>
+				<div class="boxmenu">Menu 2</div>
+				<div class="boxmenu">Menu 3</div>
+				<div class="boxmenu">Menu 4</div>
+				<div class="boxmenu">Menu 5</div>
+			</div>
+
+			<div class="containerkanan">
+				<div class="border">Border</div>
+				<div class="main">Main Image</div>
+				<div class="containerbawah">
+					<div class="info">info</div>
+					<div class="info">info</div>
+					<div class="info">info</div>
+				</div>
+				<div class="footer">Footer</div>
+			</div>
+		</div>
+</body>
+</html>
